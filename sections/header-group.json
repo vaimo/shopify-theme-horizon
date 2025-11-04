@@ -17,7 +17,7 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "This is a DEMO store  Please be aware that the products displayed are for demonstration purposes only.",
+            "text": "This is a DEMO store. Please be aware that the products displayed are for demonstration purposes only.",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
