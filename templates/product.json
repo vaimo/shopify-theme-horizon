@@ -247,6 +247,32 @@
               },
               "blocks": {}
             },
+            "text_A8d6Xa": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>{{ closest.product.metafields.custom.model_info.value.name.value }} is {{ closest.product.metafields.custom.model_info.value.height | metafield_tag }} and wearing size {{ closest.product.metafields.custom.wearing_size.value }}</p><p>{{ closest.product.metafields.custom.model_info.value.name.value }}'s measurements:</p><ul><li>Bust: {{ closest.product.metafields.custom.model_info.value.bust | metafield_tag }} </li><li>Waist: {{ closest.product.metafields.custom.model_info.value.waist | metafield_tag }}</li><li>Hips: {{ closest.product.metafields.custom.model_info.value.hips | metafield_tag }}</li></ul>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "divider_8yhnhT": {
               "type": "_divider",
               "name": "t:names.divider",
@@ -262,7 +288,6 @@
             "accordion_AhbKE8": {
               "type": "accordion",
               "name": "t:names.accordion",
-              "disabled": true,
               "settings": {
                 "icon": "caret",
                 "dividers": true,
@@ -331,6 +356,7 @@
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "text_aEtTtq",
+            "text_A8d6Xa",
             "divider_8yhnhT",
             "accordion_AhbKE8"
           ]
