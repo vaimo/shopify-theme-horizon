@@ -279,7 +279,7 @@
                       "type": "text",
                       "name": "Model Info",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.model_info.value.name.value }} is {{ closest.product.metafields.custom.model_info.value.height | metafield_tag }}and wearing size {{ closest.product.metafields.custom.wearing_size.value }}</p><p>{{ closest.product.metafields.custom.model_info.value.name.value }}'s measurements:</p><ul><li>Bust: {{ closest.product.metafields.custom.model_info.value.bust | metafield_tag }} </li><li>Waist: {{ closest.product.metafields.custom.model_info.value.waist | metafield_tag }}</li><li>Hips: {{ closest.product.metafields.custom.model_info.value.hips | metafield_tag }}</li></ul>",
+                        "text": "<p>{{ closest.product.metafields.custom.model_info.value.name.value }} is {{ closest.product.metafields.custom.model_info.value.height | metafield_tag }} and wearing size {{ closest.product.metafields.custom.wearing_size.value }}</p><p>{{ closest.product.metafields.custom.model_info.value.name.value }}'s measurements:</p><ul><li>Bust: {{ closest.product.metafields.custom.model_info.value.bust | metafield_tag }} </li><li>Waist: {{ closest.product.metafields.custom.model_info.value.waist | metafield_tag }}</li><li>Hips: {{ closest.product.metafields.custom.model_info.value.hips | metafield_tag }}</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
