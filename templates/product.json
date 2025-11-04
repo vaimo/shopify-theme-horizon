@@ -259,69 +259,31 @@
               },
               "blocks": {}
             },
-            "accordion_AhbKE8": {
-              "type": "accordion",
-              "name": "t:names.accordion",
+            "text_mjTjiG": {
+              "type": "text",
+              "name": "Model Info",
               "settings": {
-                "icon": "caret",
-                "dividers": true,
-                "type_preset": "h5",
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "solid",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
+                "text": "<p>{{ closest.product.metafields.custom.model_info.value.name.value }} is {{ closest.product.metafields.custom.model_info.value.height | metafield_tag }} and wearing size {{ closest.product.metafields.custom.wearing_size.value }}</p><p>{{ closest.product.metafields.custom.model_info.value.name.value }}'s measurements:</p><ul><li>Bust: {{ closest.product.metafields.custom.model_info.value.bust | metafield_tag }} </li><li>Waist: {{ closest.product.metafields.custom.model_info.value.waist | metafield_tag }}</li><li>Hips: {{ closest.product.metafields.custom.model_info.value.hips | metafield_tag }}</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "accordion_row_Fg77kA": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Model Info",
-                    "open_by_default": true,
-                    "icon": "silhouette",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_frEdrg": {
-                      "type": "text",
-                      "name": "Model Info",
-                      "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.model_info.value.name.value }} is {{ closest.product.metafields.custom.model_info.value.height | metafield_tag }} and wearing size {{ closest.product.metafields.custom.wearing_size.value }}</p><p>{{ closest.product.metafields.custom.model_info.value.name.value }}'s measurements:</p><ul><li>Bust: {{ closest.product.metafields.custom.model_info.value.bust | metafield_tag }} </li><li>Waist: {{ closest.product.metafields.custom.model_info.value.waist | metafield_tag }}</li><li>Hips: {{ closest.product.metafields.custom.model_info.value.hips | metafield_tag }}</li></ul>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_frEdrg"
-                  ]
-                }
-              },
-              "block_order": [
-                "accordion_row_Fg77kA"
-              ]
+              "blocks": {}
             }
           },
           "block_order": [
@@ -331,7 +293,7 @@
             "buy_buttons_eYQEYi",
             "text_aEtTtq",
             "divider_8yhnhT",
-            "accordion_AhbKE8"
+            "text_mjTjiG"
           ]
         }
       },
