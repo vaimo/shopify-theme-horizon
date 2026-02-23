@@ -1,0 +1,35 @@
+<div 
+  style="
+    background-color: {{ section.settings.divider_color }};
+    height: {{ section.settings.divider_height }}px;
+    width: 100%;
+  "
+></div>
+
+{% schema %}
+{
+  "name": "Divider 2",
+  "settings": [
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "divider_height",
+      "label": "Divider Height",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 2
+    }
+  ],
+  "presets": [
+    {
+      "name": "Divider 2"
+    }
+  ]
+}
+{% endschema %}
