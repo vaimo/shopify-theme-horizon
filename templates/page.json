@@ -46,17 +46,11 @@
           "type": "page-content",
           "settings": {},
           "blocks": {}
-        },
-        "page-content2": {
-          "type": "page-content",
-          "settings": {},
-          "blocks": {}
         }
       },
       "block_order": [
         "heading",
-        "page-content",
-        "page-content2"
+        "page-content"
       ],
       "settings": {
         "content_direction": "column",
