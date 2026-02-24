@@ -9,8 +9,17 @@
  */
 {
   "sections": {
-    "test": {
+    "test-section": {
       "type": "test-page",
+      "blocks": {
+        "block1": {
+          "type": "product",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "block1"
+      ],
       "settings": {}
     },
     "main": {
@@ -62,7 +71,7 @@
     }
   },
   "order": [
-    "test",
+    "test-section",
     "main"
   ]
 }
