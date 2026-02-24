@@ -62,7 +62,7 @@
     }
   },
   "order": [
-    "main",
-    "test"
+    "test",
+    "main"
   ]
 }
