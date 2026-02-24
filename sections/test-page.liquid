@@ -4,21 +4,12 @@
 
       {% case block.type %}
 
-        {% when 'text' %}
-          <h2>{{ block.settings.text }}</h2>
-
-        {% when 'richtext' %}
-          <div class="rte">
-            {{ block.settings.content }}
-          </div>
-
-        {% when 'image' %}
-          {% if block.settings.image != blank %}
-            <img
-              src="{{ block.settings.image | image_url: width: 800 }}"
-              alt="{{ block.settings.image.alt | escape }}"
-              loading="lazy"
-            >
+        {% when 'product' %}
+          {% if block.settings.product != blank %}
+            <div class="product-block">
+              <h3>{{ block.settings.product.title }}</h3>
+              <p>{{ block.settings.product.price | money }}</p>
+            </div>
           {% endif %}
 
       {% endcase %}
