@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "test": {
+      "type": "test-page",
+      "settings": {}
+    },
     "main": {
       "type": "main-page",
       "blocks": {
@@ -64,6 +68,7 @@
     }
   },
   "order": [
-    "main"
+    "main",
+    "test"
   ]
 }
