@@ -46,7 +46,7 @@
           "type": "page-content",
           "settings": {},
           "blocks": {}
-        },
+        }
       },
       "block_order": [
         "heading",
@@ -62,8 +62,7 @@
     }
   },
   "order": [
-     "test",
+    "test",
     "main"
-   
   ]
 }
